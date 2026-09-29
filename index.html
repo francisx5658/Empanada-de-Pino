@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Review - Chilean Empanada de Pino</title>
+  
+  <!-- FAVICON USANDO TU LOGO SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad-nv' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%23a78bfa'/><stop offset='100%25' stop-color='%23f472b6'/></linearGradient></defs><circle cx='50' cy='50' r='44' stroke='url(%23grad-nv)' stroke-width='6' stroke-dasharray='200 40' opacity='0.9'/><path d='M 30 68 L 30 32 L 50 60 L 50 32' stroke='url(%23grad-nv)' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/><path d='M 50 48 L 65 70 L 78 32' stroke='url(%23grad-nv)' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/><circle cx='30' cy='24' r='4' fill='%23f472b6'/><circle cx='78' cy='24' r='4' fill='%23a78bfa'/></svg>">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <article class="blog-container">
+    <!-- Galería Principal -->
+    <img id="main-img" class="header-image" src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/e890c4c39a6e1f2bd332d1b56b116f2a/Derivates/834218d1779b4df42bed21cd90d26f8427c4c270.jpg" alt="Empanada de Pino Main">
+    
+    <!-- Miniaturas (3 imágenes) -->
+    <div class="gallery-thumbs">
+      <img class="thumb active" src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/e890c4c39a6e1f2bd332d1b56b116f2a/Derivates/834218d1779b4df42bed21cd90d26f8427c4c270.jpg" alt="Empanada 1">
+      <img class="thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzGvYgnDqVIPpd-YEoKgEBQLikLC_rvDn2ttg3aFslgXGdozKi48y3H0Iz&s=10" alt="Empanada 2">
+      <img class="thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROZvuG48P7Qmm8M4OTYs1SrvOfGnTMiHh_55V2RD7GYia0s8n5b8DRHUQ&s=10" alt="Empanada 3">
+    </div>
+
+    <div class="content">
+      <span class="tag">Traditional Chilean Food</span>
+      <h1>Traditional Empanada de Pino</h1>
+
+      <!-- Texto en ingles -->
+      <p class="review-text">
+        During September—and especially on the 18th—I ate many things, such as <em>terremoto</em> (a traditional cocktail), <em>sopaipillas</em>, and <em>anticuchos</em>, among others.
+        <br><br>
+        However, the most delicious thing one can eat on September 18th is the <em>empanada de pino</em>; it is a true delicacy. It is not hard to find, as the empanada is a Chilean tradition that can be prepared by your grandmother, your mother, or even yourself, and they are sold all over Chile. The <em>empanada de pino</em> has a golden crust that makes everyone’s mouth water and an aroma blending egg, onion, and meat; some people add raisins, though I personally prefer not to.
+        <br><br>
+        In my opinion, the <em>empanada de pino</em> is wonderful—absolutely delicious and authentic. I love the blend of flavors it offers; while not everyone makes them the same way, the ones I ate were truly exquisite.
+      </p>
+
+      <!-- Calificación -->
+      <div class="rating-box">
+        <span class="rating-title">Final Rating</span>
+        <span class="rating-stars" id="rating-score">⭐ 10 / 10</span>
+      </div>
+
+      <!-- Botón Interactivo -->
+      <button class="interactive-btn" id="like-btn">❤️ Like this review (<span id="like-count">15</span>)</button>
+    </div>
+  </article>
+
+  <!-- FOOTER CON EL LOGO -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <a href="https://instagram.com/TU_USUARIO" target="_blank" rel="noopener noreferrer" class="logo-link" title="ByNoeliz">
+        <svg class="brand-logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad-nv" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#a78bfa" />
+              <stop offset="100%" stop-color="#f472b6" />
+            </linearGradient>
+          </defs>
+          
+          <circle cx="50" cy="50" r="44" stroke="url(#grad-nv)" stroke-width="3" stroke-dasharray="200 40" opacity="0.8" />
+          <path d="M 30 68 L 30 32 L 50 60 L 50 32" stroke="url(#grad-nv)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M 50 48 L 65 70 L 78 32" stroke="url(#grad-nv)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="30" cy="26" r="3" fill="#f472b6" />
+          <circle cx="78" cy="26" r="3" fill="#a78bfa" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
